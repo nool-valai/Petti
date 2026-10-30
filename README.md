@@ -69,26 +69,6 @@ The availability of individual features depends on the implementation, permissio
 
 Screenshots will be added here as the project develops.
 
-To add your own screenshots, create an `assets/screenshots/` directory in the repository and place your images inside it.
-
-For example:
-
-```text
-assets/
-└── screenshots/
-    ├── dashboard.png
-    ├── storage-overview.png
-    └── settings.png
-```
-
-Then reference them in this section:
-
-```markdown
-![Petti storage dashboard](assets/screenshots/dashboard.png)
-```
-
-Actual application screenshots are recommended so visitors can see Petti's interface before installing it.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -574,13 +554,3 @@ Every contribution helps improve the project.
   <br>
   Built with Kotlin and Jetpack Compose by Nool Valai.
 </p>
-
-### Before publishing
-
-There are three things I recommend checking in your repository:
-
-1. **Licence:** Make sure the root `LICENSE` file matches the licence you intend to use.
-2. **Screenshots:** Add real screenshots from the running application to make the repository more engaging.
-3. **Build configuration:** Verify that the project builds with its configured Android Gradle Plugin and SDK versions.
-
-The README is now structured to serve as the main documentation for Petti on GitHub. It distinguishes between functionality supported by the project structure and features that still need verification, rather than claiming that every proposed capability is already complete.
